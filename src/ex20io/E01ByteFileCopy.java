@@ -14,7 +14,6 @@ import java.io.OutputStream;
  	입력(Input)스트림과 출력(Output)스트림으로 나눌수 있다.
  */
 public class E01ByteFileCopy {
-
 	/*
 	 IO관련 작업에서는 많은 부분에서 예외처리가 필요하다
 	 이떄 예외를 throws하는것보다 try~catch로 예외처리를 해주는것을

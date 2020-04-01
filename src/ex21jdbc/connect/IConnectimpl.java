@@ -78,7 +78,7 @@ public class IConnectimpl implements IConnect{
 			System.out.println("프로그램을 종료합니다.");
 			close();
 			//프로그램 자체가 즉시 종료된다.
-			System.exit(0);
+			System.exit(2);
 		}
 		return inputStr;
 	}

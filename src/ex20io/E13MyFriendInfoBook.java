@@ -210,7 +210,8 @@ class FriendInfoHandler{
 	public void saveFriendInfo() {
 		
 		try {
-			ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("src/ex20io/friendinfo.obj"));
+			ObjectOutputStream out = new ObjectOutputStream
+					(new FileOutputStream("src/ex20io/friendinfo.obj"));
 		//mtFriend 객체 배열에 저장된 친구의 정보만큼 반복
 			for (int i = 0; i < numOfFriends; i++) {
 				//객체배열의 i번째 요소를 파일로 저장
