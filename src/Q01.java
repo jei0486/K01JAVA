@@ -1,5 +1,4 @@
 import java.util.Random;
-import java.util.Scanner;
 
 public class Q01 {
 /*정렬알고리즘 - 버블정렬(Bubble Sort) 
@@ -34,7 +33,6 @@ public class Q01 {
 	public static void main(String[] args) {
 
 		Random ran = new Random();
-		Scanner sc = new Scanner(System.in);
 
 		int[] arr = new int[10];
 		System.out.print("배열보기 : ");
@@ -42,7 +40,7 @@ public class Q01 {
 		boolean flag = true;
 
 		for (int i = 0; i < arr.length;) {
-			int num = ran.nextInt(11) + 1;
+			int num = ran.nextInt(99) + 1;
 
 			for (int j = 0; j < arr.length; j++) {
 				if (num == arr[j]) {

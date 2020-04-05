@@ -71,7 +71,7 @@ public class Qu02 {
 		boolean flag = true;
 
 		for (int i = 0; i < arr.length;) {
-			int num = ran.nextInt(11) + 1;
+			int num = ran.nextInt(100) + 1;
 
 			for (int j = 0; j < arr.length; j++) {
 				if (num == arr[j]) {
