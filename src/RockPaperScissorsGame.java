@@ -85,6 +85,7 @@ public class RockPaperScissorsGame {
 	}
 	public static void main(String[] args) {
 		//가위바위보 게임 메소드 호출
+		System.out.println("테스츠");
 		rpsGameStart();
 	}
 	
