@@ -43,7 +43,7 @@ public class Ex05HashMapMain {
 		 :기존에 입력된 name이라는 key값이 있으므로
 		 "홍길동"이 출력된다. 그리고 기존의 값이 "최길동"으로 갱신됨
 		 */
-		System.out.println("name 이라는 키값으로 저장된 이전의 값:"+
+		System.out.println("name 이라는 키값으로 저장된 이후의 값:"+
 				map.put("name", "최길동"));//홍길동 출력//덮어쓰기 처리
 		System.out.println("키값으로 중복 저장후 객체수:"+map.size());//4개
 		

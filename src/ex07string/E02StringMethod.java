@@ -120,6 +120,7 @@ public class E02StringMethod {
 			: 문자열에서 특정 문자열의 시작인덱스를 반환한다.
 			만약 찾는 문자열이 없다면 -1을 반환한다.
 		 */
+		//String str1 = "Welcome to java";
 		System.out.println(str1.indexOf("ava"));//12
 		System.out.println(str1.indexOf("J"));//-1
 		System.out.println((email1.indexOf("@")!=-1) ?
@@ -143,7 +144,7 @@ public class E02StringMethod {
 			: 사용법은 indexOf와 동일하나 문자열의 뒤에서부터
 			문자열을 찾아서 인덱스를 반환한다.
 		 */
-		
+		//String str1 = "Welcome to java";
 		System.out.println(str1.lastIndexOf("ava"));
 		System.out.println(str1.lastIndexOf("J"));
 		System.out.println("indexOf:" +
@@ -186,8 +187,9 @@ public class E02StringMethod {
 				문자열의 끝까지 잘라서 반환 한다.
 			사용법2 : substring(인덱스1,인덱스2) -> 인덱스에
 				포함되는 부분만 잘라서 반환한다.
+				String str1 = "Welcome to java";
 		 */
-		System.out.println(str1.substring(3));
+		System.out.println(str1.substring(3));//come to java
 		System.out.println(str1.substring(3,7));
 			
 		/*
