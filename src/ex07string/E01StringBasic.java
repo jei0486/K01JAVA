@@ -55,7 +55,7 @@ public class E01StringBasic extends Object {
 		자바에서 문자열객체를 생성할때 new를 사용하지 않고 "을 사용하면
 		동일한 문자열인 경우 한군데만 메모리를 생성하여 공유하게된다.
 		 */
-		if(str3==str4) {
+		if(str3==str4) {//주소가 같다.
 			System.out.println("주소가 같다.");
 		}
 		else {
