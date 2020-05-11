@@ -17,6 +17,7 @@ public class E02StringMethod {
 		
 		/*
 		2] charAt(인덱스) : 문자열에서 특정 index에 해당하는
+		
 			문자 하나를 반환한다. index는 0부터 시작한다.
 		 */
 		System.out.println("str1의 두번째 문자:"
