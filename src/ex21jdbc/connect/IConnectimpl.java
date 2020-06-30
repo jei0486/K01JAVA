@@ -6,14 +6,19 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Scanner;
 
 public class IConnectimpl implements IConnect{
 	
-	//동적 쿼리 처리를 위한 객체
-	public PreparedStatement psmt;
 	public Connection con;
 	public ResultSet rs;
+	
+	//동적 쿼리 처리를 위한 객체
+	public PreparedStatement psmt;
+	
+	//정적 쿼리 처리를 위한 객체
+	public Statement stmt;
 	
 	//프로시저 혹은 함수를 호출하기 위한 객체
 	public CallableStatement csmt;
@@ -61,6 +66,7 @@ public class IConnectimpl implements IConnect{
 			if(con!=null) con.close();
 			if(psmt!=null) psmt.close();
 			if(rs!=null) rs.close();
+			if(stmt!=null)stmt.close();
 			System.out.println("자원 반납 완료");
 		} catch (Exception e) {
 			System.out.println("자원 반납시 오류발생");

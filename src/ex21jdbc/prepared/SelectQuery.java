@@ -32,6 +32,7 @@ public class SelectQuery extends IConnectimpl{
 				}
 			}
 		} catch (SQLException e) {
+			System.out.println("select중 예외발생");
 			e.printStackTrace();
 		}
 		finally {
